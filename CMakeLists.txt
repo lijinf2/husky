@@ -74,6 +74,7 @@ add_subdirectory(examples)
 add_subdirectory(master)
 add_subdirectory(test)
 add_subdirectory(benchmarks)
+add_subdirectory(losha)
 
 # libhusky.a
 set(husky-objs $<TARGET_OBJECTS:channel-objs> $<TARGET_OBJECTS:base-objs> $<TARGET_OBJECTS:core-objs> ${io-objs} ${lib-objs})
